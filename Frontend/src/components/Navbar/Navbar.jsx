@@ -20,9 +20,9 @@ const Navbar = ({setShowLogin}) => {
       <Link to='/'><img src={assets.logo} alt="" className="logo" /></Link>
       <ul className="navbar-menu">
         <Link to='/' onClick={()=>setMenu("home")} className={menu=="home"?"active":""}>Home</Link>
-        <a href='http://localhost:5173/#explore-menu' onClick={()=>setMenu("menu")} className={menu=="menu"?"active":""}>Menu</a>
-        <a href='http://localhost:5173/#app-download' onClick={()=>setMenu("mobile-app")} className={menu=="mobile-app"?"active":""}>Mobile-App</a>
-        <a href='http://localhost:5173/#footer' onClick={()=>setMenu("contact-us")} className={menu=="contact-us"?"active":""}>Contact-us</a>
+        <a href='https://quick-dine.onrender.com/#explore-menu' onClick={()=>setMenu("menu")} className={menu=="menu"?"active":""}>Menu</a>
+        <a href='https://quick-dine.onrender.com/#app-download' onClick={()=>setMenu("mobile-app")} className={menu=="mobile-app"?"active":""}>Mobile-App</a>
+        <a href='https://quick-dine.onrender.com/#footer' onClick={()=>setMenu("contact-us")} className={menu=="contact-us"?"active":""}>Contact-us</a>
       </ul>
       <div className="navbar-right">
         <img src={assets.search_icon} alt=""/>
